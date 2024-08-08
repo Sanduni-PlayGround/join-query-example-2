@@ -61,3 +61,11 @@ VAlUES ('I001', 'Mouse', 10, 1250.00),
        ('I004', 'Mouse Pad', 20, 500.00),
        ('I005', 'Smart Watch', 15, 12500.00),
        ('I006', 'Blue Screen Filter', 15, 750.00);
+
+INSERT INTO order_detail(order_id, item_code, qty, price)
+VALUES ('OD001', 'I004', 2, 2500.00),
+       ('OD002', 'I002', 4, 4000.00),
+       ('OD003', 'I006', 1, 15, 750.00),
+       ('OD004', 'I006', 1, 15, 750.00),
+       ('OD005', 'I001', 2, 2500.00),
+       ('OD006', 'I002', 3, 1250.00),
